@@ -8,7 +8,7 @@ const product=await productModel.find().populate({
 })
 res.json({Message:"Done",product})
 }
-
+//ahmed commit 2
 export const addProduct=async(req,res)=>{
 try {
     const {pname,price,discription,userid}=req.body
